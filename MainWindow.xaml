@@ -8,7 +8,7 @@
     <!-- Resources-->
     <Window.Resources>
         <CollectionViewSource x:Key="TransactionView"
-                              Source="{Binding Transactions}">
+                              Source="{Binding MonthTransactions}">
             <CollectionViewSource.GroupDescriptions>
                 <PropertyGroupDescription PropertyName="IsIncome"/>
             </CollectionViewSource.GroupDescriptions>
